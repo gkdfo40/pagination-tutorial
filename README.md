@@ -6,9 +6,7 @@
 **Page Component**와 **Contents Component**를 구현하여 `page/index.js`에서 적용한다.
 
 ## 결과
-![캡쳐1](/public/post1.PNG)
-
-![캡쳐2](/public/post2.PNG)
+![캡쳐1](/public/post1.PNG) ![캡쳐2](/public/post2.PNG)
 
 ## next step
  + page reload 시 현재 page 기억하기
