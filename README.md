@@ -14,3 +14,7 @@
  + page reload 시 현재 page 기억하기
  + css 스타일 적용
  + restAPI fetch 구현
+
+
+## Today
+`yarn add styled-components`
