@@ -16,6 +16,7 @@
 
 
 ## Today
+
 `yarn add styled-components`
-=======
->>>>>>> a67f37ef5bd0025333028eef6b65770f08d688de
+
+:white_check_mark:
