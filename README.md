@@ -6,15 +6,16 @@
 **Page Component**와 **Contents Component**를 구현하여 `page/index.js`에서 적용한다.
 
 ## 결과
-![캡쳐1](/public/post1.PNG)
-
-![캡쳐2](/public/post2.PNG)
+![캡쳐1](/public/post1.PNG) ![캡쳐2](/public/post2.PNG)
 
 ## next step
  + page reload 시 현재 page 기억하기
  + css 스타일 적용
  + restAPI fetch 구현
+<<<<<<< HEAD
 
 
 ## Today
 `yarn add styled-components`
+=======
+>>>>>>> a67f37ef5bd0025333028eef6b65770f08d688de
