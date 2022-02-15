@@ -20,3 +20,4 @@
 `yarn add styled-components`
 
 :white_check_mark:
+css 스타일 적용
