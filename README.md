@@ -16,6 +16,11 @@
 
 
 ## Today
+
 `yarn add styled-components`
-=======
->>>>>>> a67f37ef5bd0025333028eef6b65770f08d688de
+
+:white_check_mark:
+css 스타일 적용
+
+:white_check_mark:
+restAPI fetch 구현
