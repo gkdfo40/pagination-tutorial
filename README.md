@@ -21,3 +21,6 @@
 
 :white_check_mark:
 css 스타일 적용
+
+:white_check_mark:
+restAPI fetch 구현
