@@ -6,16 +6,10 @@
 **Page Component**와 **Contents Component**를 구현하여 `page/index.js`에서 적용한다.
 
 ## 결과
-![캡쳐1](/public/post1.PNG) ![캡쳐2](/public/post2.PNG)
 
-## next step
- + page reload 시 현재 page 기억하기
- + css 스타일 적용
- + restAPI fetch 구현
-<<<<<<< HEAD
+![캡쳐1](/public/post3.PNG)
 
-
-## Today
+## 2022.02.16
 
 `yarn add styled-components`
 
@@ -24,3 +18,6 @@ css 스타일 적용
 
 :white_check_mark:
 restAPI fetch 구현
+
+## next step
+ + Contents css스타일 적용

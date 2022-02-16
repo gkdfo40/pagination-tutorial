@@ -14,8 +14,6 @@ export default function Pagination({ pages, setCurrentPage }) {
     useEffect(() => {
         let tempNumberOfPages = [...arrOfCurrButtons]
 
-
-
         if (numberOfPages.length < 7) {
             tempNumberOfPages = numberOfPages
         }
@@ -34,8 +32,8 @@ export default function Pagination({ pages, setCurrentPage }) {
             const sliced = numberOfPages.slice(numberOfPages.length - 6)
             tempNumberOfPages = [...sliced]
         }
-        setArrOfCurrButtons(tempNumberOfPages)
-        setCurrentPage(currentButton)
+        setArrOfCurrButtons(tempNumberOfPages);
+        setCurrentPage(currentButton);
     }, [currentButton])
 
 
@@ -53,7 +51,7 @@ export default function Pagination({ pages, setCurrentPage }) {
                     onClick={() => setCurrentButton(item)}
                     color={currentButton === item ? 'white' : 'black'}
                     backcolor={currentButton === item ? 'black' : 'white'}
-                    className={`${currentButton === item ? 'active' : ''}`}
+                    className={currentButton === item ? 'active' : ''}
                 >
                     {item}
                 </Button>
