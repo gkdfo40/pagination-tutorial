@@ -12,6 +12,7 @@
 ## 2022.02.16
 
 `yarn add styled-components`
+
 `yarn add babel-plugin-styled-components`
 
 ✅css 스타일 적용
