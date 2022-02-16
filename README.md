@@ -21,5 +21,4 @@
 
 ✅babelrc Error 수정
 
-## next step
- + Contents css스타일 적용
+✅Contents css스타일 적용
