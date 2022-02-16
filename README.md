@@ -13,11 +13,13 @@
 
 `yarn add styled-components`
 
-:white_check_mark:
-css 스타일 적용
+`yarn add babel-plugin-styled-components`
 
-:white_check_mark:
-restAPI fetch 구현
+✅css 스타일 적용
+
+✅restAPI fetch 구현
+
+✅babelrc Error 수정
 
 ## next step
  + Contents css스타일 적용
