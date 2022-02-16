@@ -6,7 +6,7 @@ export default function Contents({ props }) {
         <ContentsBox>
             {currentPosts.map(data => (
                 <Album key={data.id}>
-                    <img src={data.thumbnailUrl} alt="thumbnailUrl" width="50px" height="50px" />
+                    <ThumNail src={data.thumbnailUrl} alt="thumbnailUrl" />
                     <Title>{data.title}</Title>
                 </Album>
             ))}
@@ -16,18 +16,31 @@ export default function Contents({ props }) {
 
 const ContentsBox = styled.div`
 display:flex;
-justify-content:center;
+flex-wrap:wrap;
+flex-flow:wrap;
+justify-content:flex-start;
 align-items:center;
+margin-bottom:20px;
 `;
 
 const Album = styled.div`
-width:400px;
-height:100px;
+display:flex;
+width:30%;
+margin-right:100px;
 :hover{
     opacity:0.6;
 }
-`
+`;
+
+const ThumNail = styled.img`
+padding:1em;
+width:100px;
+height:100px;
+`;
+
 const Title = styled.a`
-font-size:10px;
+padding:1em;
+font-size:1em;
+font-weight:bold;
 color:black;
-`
+`;

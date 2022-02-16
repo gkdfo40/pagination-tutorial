@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react'
 import Contents from '../components/Contents';
 import Pagination from '../components/Pagination';
 import axios from 'axios';
+import styled from 'styled-components';
 
 
 export default function Home() {
@@ -31,9 +32,14 @@ export default function Home() {
   const totalPages = Math.ceil(posts.length / postPerPage);
   if (loading) return <h1>Loading...</h1>
   return (
-    <div>
+    <Container>
       <Contents props={{ currentPosts }} />
       <Pagination pages={totalPages} setCurrentPage={setCurrentPage} />
-    </div>
+    </Container>
   )
 };
+
+const Container = styled.div`
+margin-left:10px;
+padding:20px;
+`;
