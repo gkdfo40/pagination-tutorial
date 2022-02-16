@@ -7,7 +7,7 @@
 
 ## 결과
 
-![캡쳐1](/public/post4.PNG)
+![캡쳐1](/public/post4.png)
 
 ## 2022.02.16
 
